@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(33, 255, 89);
+}
+
+
+
+body{
+
+    font-family: Arial, sans-serif;
+    
+    margin:40px;
+    
+    }
+    
+    input{
+    
+    width:250px;
+    
+    padding:8px;
+    
+    }
+    
+    button{
+    
+    padding:10px 20px;
+    
+    cursor:pointer;
+    border:1px sd rgb(79, 35, 201);
+    
+    }
+    
+    .card{
+    
+    border:1px sd rgb(35, 201, 201);
+    
+    padding:15px;
+    
+    margin-top:15px;
+    
+    border-radius:8px;
+    
+    h1 {
+        color: rgb(0, 123, 255);
+        margin-top: 30px;
+        text-shadow: 2px 2px 5px black;
+
+    }
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        min-height: 10vh;
+    
+        background-image: url("../imagens/fundo.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h1 {
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        text-shadow: 2px 2px 5px rgb(153, 18, 18);
+    }
+    
+    form {
+        width: 450px;
+        padding: 25px;
+    
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(6, 43, 255, 0.3);
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
